@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تنظیمات - JobVision Navigation</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>موقعیت مبدأ</h1>
+    <p class="subtitle">مختصات محل سکونت یا کار خود را وارد کنید</p>
+
+    <div class="form-group">
+      <label for="latitude">عرض جغرافیایی (Latitude)</label>
+      <input type="number" id="latitude" step="any" placeholder="مثال: 35.6926">
+    </div>
+
+    <div class="form-group">
+      <label for="longitude">طول جغرافیایی (Longitude)</label>
+      <input type="number" id="longitude" step="any" placeholder="مثال: 51.4178">
+    </div>
+
+    <div class="button-group">
+      <button id="saveBtn" class="btn btn-primary">ذخیره</button>
+      <button id="geoBtn" class="btn btn-secondary">موقعیت فعلی</button>
+    </div>
+
+    <div id="status" class="status"></div>
+
+    <div id="savedInfo" class="saved-info" style="display:none;">
+      <p>موقعیت ذخیره شده:</p>
+      <span id="savedCoords"></span>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

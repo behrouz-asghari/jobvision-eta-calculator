@@ -2,6 +2,8 @@
 
 A Chrome extension that calculates driving time from your location to job listings on [JobVision](https://jobvision.ir).
 
+<img width="1217" height="903" alt="Screenshot 2026-07-15 145219" src="https://github.com/user-attachments/assets/82f28530-a3b1-47c4-9d27-91fc1045b170" />
+
 ## Features
 
 - Extracts street names from job cards automatically
@@ -9,6 +11,27 @@ A Chrome extension that calculates driving time from your location to job listin
 - Color-coded badges: green (<15 min), yellow (15-30 min), red (>30 min)
 - Caches results per session to avoid redundant API calls
 - Works with dynamic content (infinite scroll, pagination)
+
+### Recommended commute time ranges
+
+- **Ideal minimum:** 15-25 minutes
+- **Balanced range:** 30-45 minutes
+- **Average acceptable range:** 45-60 minutes
+- **Maximum acceptable range:** 60-75 minutes
+- **High-risk range:** more than 75 minutes
+
+### HR interpretation
+
+- **Up to 30 minutes:** highly preferred
+- **30-45 minutes:** balanced and optimal
+- **45-60 minutes:** acceptable, especially in large cities
+- **60-75 minutes:** requires additional review
+- **More than 75 minutes:** higher risk of fatigue, lateness, and turnover
+
+### Notes
+
+- Use commute time as a decision support factor, not a strict rejection rule.
+- Evaluate it together with role type, work model, traffic conditions, and transport access.
 
 ## Privacy
 

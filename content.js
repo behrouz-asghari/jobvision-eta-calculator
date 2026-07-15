@@ -244,11 +244,31 @@
   // ========== Inject CSS ==========
 
   function injectStyles() {
+    const fontRegular = chrome.runtime.getURL("fonts/Vazirmatn-Regular.woff2");
+    const fontBold = chrome.runtime.getURL("fonts/Vazirmatn-Bold.woff2");
+
     const style = document.createElement("style");
     style.textContent = `
+      @font-face {
+        font-family: 'Vazirmatn';
+        src: url('${fontRegular}') format('woff2');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Vazirmatn';
+        src: url('${fontBold}') format('woff2');
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+      }
       @keyframes jv-nav-pulse {
         0%, 100% { opacity: 1; }
         50% { opacity: 0.5; }
+      }
+      .jv-nav-eta-badge, .jv-nav-loading-badge, .jv-nav-error-badge {
+        font-family: 'Vazirmatn', sans-serif !important;
       }
     `;
     document.head.appendChild(style);

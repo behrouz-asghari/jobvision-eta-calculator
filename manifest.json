@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "JobVision Navigation Calc",
+  "name": "JobVision ETA Calculator",
   "version": "1.0.0",
-  "description": "محاسبه زمان رسیدن به محل شغل از موقعیت شما",
-  "permissions": ["storage", "activeTab"],
+  "description": "محاسبه زمان رسیدن از موقعیت شما تا محل شرکت فرصت‌های شغلی",
+  "permissions": ["storage", "activeTab", "geolocation"],
   "host_permissions": [
     "https://search.raah.ir/*",
     "https://direction.raah.ir/*"

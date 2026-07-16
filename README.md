@@ -1,8 +1,16 @@
+<div align="center">
+
 # JobVision ETA Calculator
+[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-blue?logo=googlechrome&logoColor=white)](https://developer.chrome.com/docs/extensions/)
+[![Manifest V3](https://img.shields.io/badge/Manifest-V3-green)](https://developer.chrome.com/docs/extensions/develop/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A Chrome extension that calculates driving time from your location to job listings on [JobVision](https://jobvision.ir).
 
 <img width="1217" height="903" alt="Screenshot 2026-07-15 145219" src="https://github.com/user-attachments/assets/82f28530-a3b1-47c4-9d27-91fc1045b170" />
+
+</div>
+
 
 ## Features
 

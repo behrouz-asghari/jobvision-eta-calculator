@@ -63,7 +63,7 @@ A Chrome extension that calculates driving time from your location to job listin
 ### Option 1: From GitHub Releases (Recommended)
 
 1. Go to the [Releases](../../releases) page
-2. Download the latest `jobvision-eta-calc-vX.X.X.zip`
+2. Download the latest `vX.X.X.zip`
 3. Extract the zip file to a folder on your computer
 4. Open Chrome and navigate to `chrome://extensions/`
 5. Enable **Developer mode** (toggle in top-right corner)
@@ -75,7 +75,7 @@ A Chrome extension that calculates driving time from your location to job listin
 
 1. Clone this repository:
    ```
-   git clone https://github.com/your-username/jobvision-eta-calculator.git
+   git clone https://github.com/behrouz-asghari/jobvision-eta-calculator.git
    ```
 2. Open Chrome and navigate to `chrome://extensions/`
 3. Enable **Developer mode**
